@@ -8,12 +8,14 @@ public class Main {
         arrayOne[1] = 2;
         arrayOne[2] = 3;
         float[] arrayTwo = {1.57f, 7.654f, 9.986f};
+        int[] arrayThree = {53, 93, 104, 347, 100, 78};
 
 
 
         System.out.println("Задача №2"); // Задача №2
         System.out.println(Arrays.toString(arrayOne).replace("[","").replace("]",""));
         System.out.println(Arrays.toString(arrayTwo).replace("[","").replace("]",""));
+        System.out.println(Arrays.toString(arrayThree).replace("[","").replace("]",""));
         System.out.println();
 
 
@@ -28,11 +30,20 @@ public class Main {
         }
         System.out.println();
 
-        for (int i = arrayOne.length - 1; i >= 0; i--) {
+        for (int i = arrayTwo.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arrayTwo[i]);
             } else {
                 System.out.print(arrayTwo[i] + ", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = arrayThree.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(arrayThree[i]);
+            } else {
+                System.out.print(arrayThree[i] + ", ");
             }
         }
         System.out.println();
