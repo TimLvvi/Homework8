@@ -7,7 +7,6 @@ public class Main {
         arrayOne[0] = 1;
         arrayOne[1] = 2;
         arrayOne[2] = 3;
-
         float[] arrayTwo = {1.57f, 7.654f, 9.986f};
 
 
